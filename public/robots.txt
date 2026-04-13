@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://luthorcorp.com/sitemap.xml
+Sitemap: https://www.luthorcorp.co.in/sitemap.xml
