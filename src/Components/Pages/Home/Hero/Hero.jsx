@@ -13,8 +13,8 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-[90rem] px-6 lg:px-12 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-12 lg:gap-24">
-          
-          <motion.div 
+
+          <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
@@ -26,21 +26,21 @@ export default function Hero() {
                 Established 2026 | Technical Sovereignty
               </span>
             </div>
-            
+
             <h1 className="text-4xl sm:text-6xl lg:text-8xl font-bold tracking-tight text-brand-navy mb-8 md:mb-10 leading-[1] md:leading-[0.95] heading-gradient">
               Architecting <br />
               <span className="font-light text-brand-steel italic">the future of</span> <br />
               Infrastructure.
             </h1>
-            
+
             <p className="text-brand-steel text-base md:text-lg lg:text-xl max-w-xl mb-10 md:mb-14 leading-relaxed font-medium opacity-80">
-              LuthorCorp deploys high-concurrency systems and autonomous intelligence 
-              integrated into your core enterprise matrix. We bridge the frontier of 
+              LuthorCorp deploys high-concurrency systems and autonomous intelligence
+              integrated into your core enterprise matrix. We bridge the frontier of
               technical possibility and industrial-scale reliability.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 items-start sm:items-center">
-              <a 
+              <a
                 href="/#services"
                 className="w-full sm:w-auto text-center group relative px-10 md:px-12 py-4 md:py-5 bg-brand-navy text-white text-[10px] md:text-xs font-bold uppercase tracking-[0.25em] rounded-full transition-all hover:shadow-[0_20px_40px_rgba(12,22,35,0.15)] hover:-translate-y-1 active:scale-95 overflow-hidden"
               >
@@ -49,7 +49,7 @@ export default function Hero() {
                   Deploy Solutions <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                 </span>
               </a>
-              <Link 
+              <Link
                 to="/mission"
                 className="w-full sm:w-auto text-center text-[10px] md:text-xs font-bold uppercase tracking-[0.3em] text-brand-navy border-b-2 border-brand-navy/10 pb-2 hover:border-brand-emerald hover:text-brand-emerald transition-all"
               >
@@ -59,7 +59,7 @@ export default function Hero() {
           </motion.div>
 
           {/* Right Side: Cinematic Brand Mark */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.8, x: 50 }}
             animate={{ opacity: 1, scale: 1, x: 0 }}
             transition={{ duration: 1.2, ease: "easeOut" }}
@@ -68,21 +68,21 @@ export default function Hero() {
             <div className="relative group p-6 md:p-12">
               {/* Complex Luminous Background */}
               <div className="absolute inset-0 bg-brand-emerald/5 rounded-full blur-[60px] md:blur-[80px] group-hover:bg-brand-emerald/10 transition-all duration-700" />
-              
-              <motion.div 
+
+              <motion.div
                 animate={{ y: [0, -15, 0] }}
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
                 className="relative z-10"
               >
                 <div className="relative p-1 bg-gradient-to-tr from-white to-brand-offwhite rounded-full shadow-2xl border border-white/50">
-                   <div className="absolute inset-0 bg-brand-navy/5 rounded-full blur-sm opacity-0 group-hover:opacity-100 transition-opacity" />
-                    <img 
-                      src={logo} 
-                      alt="LuthorCorp Authority Mark" 
-                      className="w-56 h-56 sm:w-72 sm:h-72 lg:w-[450px] lg:h-[450px] rounded-full object-cover transition-transform duration-1000 group-hover:scale-105"
-                    />
+                  <div className="absolute inset-0 bg-brand-navy/5 rounded-full blur-sm opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <img
+                    src={logo}
+                    alt="LuthorCorp Authority Mark"
+                    className="w-56 h-56 sm:w-72 sm:h-72 lg:w-[450px] lg:h-[450px] rounded-full object-cover transition-transform duration-1000 group-hover:scale-105"
+                  />
                 </div>
-                
+
                 {/* Orbital Elements */}
                 <div className="flex absolute -top-4 -right-4 sm:-top-6 sm:-right-6 md:-top-10 md:-right-10 w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-2xl md:rounded-3xl bg-white/70 backdrop-blur-xl border border-white/40 shadow-xl items-center justify-center animate-float">
                   <Shield className="text-brand-navy opacity-20 w-6 h-6 sm:w-8 sm:h-8" />
@@ -102,3 +102,4 @@ export default function Hero() {
     </section>
   );
 }
+
