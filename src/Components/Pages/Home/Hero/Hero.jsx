@@ -28,15 +28,15 @@ export default function Hero() {
             </div>
             
             <h1 className="text-4xl sm:text-6xl lg:text-8xl font-bold tracking-tight text-brand-navy mb-8 md:mb-10 leading-[1] md:leading-[0.95] heading-gradient">
-              Architecting <br />
-              <span className="font-light text-brand-steel italic">the future of</span> <br />
-              Infrastructure.
+              Advanced <span className="font-light text-brand-steel italic">Web Dev</span> <br />
+              & AI Automation <br />
+              Solutions.
             </h1>
             
             <p className="text-brand-steel text-base md:text-lg lg:text-xl max-w-xl mb-10 md:mb-14 leading-relaxed font-medium opacity-80">
-              LuthorCorp deploys high-concurrency systems and autonomous intelligence 
-              integrated into your core enterprise matrix. We bridge the frontier of 
-              technical possibility and industrial-scale reliability.
+              LuthorCorp is a premier Web Development & AI Automation agency in Cuddalore. 
+              We build high-concurrency enterprise web applications, intelligent n8n workflows, 
+              and autonomous AI agents to scale your business operations.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 items-start sm:items-center">
