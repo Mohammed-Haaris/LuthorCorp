@@ -17,12 +17,13 @@ export default function About() {
           >
             <h2 className="text-sm uppercase tracking-[0.3em] text-brand-emerald font-bold mb-6"> Our Legacy </h2>
             <h3 className="text-4xl font-bold text-brand-navy mb-8 leading-tight">
-              Pioneering Enterprise Solutions for the <span className="text-brand-steel font-medium text-3xl"> Modern Age </span>
+              Leading Web Development & Software <span className="text-brand-steel font-medium text-3xl"> Agency in Cuddalore </span>
             </h3>
             <p className="text-brand-grey text-lg mb-8 leading-relaxed">
-              Founded on the principles of technical precision and innovative thinking, 
-              LuthorCorp has emerged as a leader in digital transformation. We don't just 
-              build software; we architect the infrastructure that powers tomorrow's industries.
+              Founded on technical precision and innovative thinking, LuthorCorp is the premier 
+              digital transformation partner for businesses in Tamil Nadu. We specialize in 
+              Custom Web Development, AI-Powered Automation, and enterprise-grade software 
+              architectures that drive real-world growth.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">

@@ -3,13 +3,13 @@ import { Globe, Code, Zap, Bot, GraduationCap } from "lucide-react";
 
 const services = [
   {
-    title: "Websites & Web Apps",
-    description: "Developing robust, scalable websites and applications with cutting-edge frameworks and performance-first engineering.",
+    title: "Web Development Specialists",
+    description: "Developing robust, scalable websites and applications in Cuddalore with cutting-edge frameworks and performance-first engineering.",
     icon: Globe,
   },
   {
-    title: "Custom Web Applications",
-    description: "Tailored software solutions designed to solve complex business challenges with intuitive user interfaces.",
+    title: "Custom Software Solutions",
+    description: "Tailored software development designed to solve complex business challenges with intuitive user interfaces and cloud architecture.",
     icon: Code,
   },
   {
@@ -66,10 +66,11 @@ export default function Services() {
                 >
                   <Globe size={28} />
                 </motion.div>
-                <h4 className="text-2xl md:text-3xl font-bold mb-4 tracking-tight">Enterprise Websites & Web Apps</h4>
+                <h4 className="text-2xl md:text-3xl font-bold mb-4 tracking-tight">Enterprise Web Development</h4>
                 <p className="text-brand-silver text-sm md:text-base max-w-md leading-relaxed">
-                  Building the digital home for your brand. We develop high-performance, 
-                  modern websites and web applications tailored to your business goals.
+                  As a leading software agency in Cuddalore, we build high-performance, 
+                  modern websites and web applications. From e-commerce to custom portals, 
+                  our solutions are tailored to your business growth.
                 </p>
               </div>
               <div className="mt-12 flex flex-wrap gap-3">
