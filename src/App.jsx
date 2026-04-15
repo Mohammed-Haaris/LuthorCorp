@@ -10,6 +10,8 @@ import Contact from "./Components/Contact/Contact";
 import CTA from "./Components/CTA/CTA";
 import Footer from "./Components/Footer/Footer";
 import Mission from "./Components/Mission/Mission";
+import NotFound from "./Components/NotFound/NotFound";
+import TechStack from "./Components/TechStack/TechStack";
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
@@ -38,6 +40,7 @@ function HomePage() {
       <About />
       <Services />
       <Process />
+      <TechStack />
       <FAQ />
       <Contact />
       <Footer />
@@ -55,6 +58,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/mission" element={<Mission />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
     </Router>
