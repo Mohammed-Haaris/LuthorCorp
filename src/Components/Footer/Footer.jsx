@@ -21,10 +21,9 @@ export default function Footer() {
             <h4 className="text-white font-bold mb-6 text-sm uppercase tracking-widest">Navigation</h4>
             <ul className="space-y-4 text-brand-silver text-sm">
               <li><a href="#hero" className="hover:text-brand-emerald transition-colors">Home</a></li>
-
-              <li><a href="#" className="hover:text-brand-emerald transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-brand-emerald transition-colors">Service</a></li>
-              <li><a href="#" className="hover:text-brand-emerald transition-colors">Contact</a></li>
+              <li><a href="#about" className="hover:text-brand-emerald transition-colors">About</a></li>
+              <li><a href="#services" className="hover:text-brand-emerald transition-colors">Service</a></li>
+              <li><a href="#contact" className="hover:text-brand-emerald transition-colors">Contact</a></li>
             </ul>
           </div>
 
