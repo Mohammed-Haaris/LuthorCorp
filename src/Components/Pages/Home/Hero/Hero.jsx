@@ -20,9 +20,9 @@ export default function Hero() {
             transition={{ duration: 1, ease: "easeOut" }}
             className="lg:col-span-7 z-10"
           >
-            <div className="inline-flex items-center gap-3 mb-8 md:mb-10 group">
-              <span className="h-[1px] w-8 md:w-12 bg-brand-navy/20 group-hover:w-20 transition-all duration-500"></span>
-              <span className="text-[9px] md:text-[10px] font-bold tracking-[0.3em] md:tracking-[0.4em] text-brand-emerald uppercase whitespace-nowrap">
+            <div className="flex items-center gap-2 sm:gap-3 mb-8 md:mb-10 group">
+              <span className="h-[1px] w-6 sm:w-8 md:w-12 bg-brand-navy/20 group-hover:w-12 sm:group-hover:w-20 transition-all duration-500 shrink-0"></span>
+              <span className="text-[8px] sm:text-[9px] md:text-[10px] font-bold tracking-[0.15em] sm:tracking-[0.3em] md:tracking-[0.4em] text-brand-emerald uppercase">
                 Established 2026 | Technical Sovereignty
               </span>
             </div>
@@ -83,12 +83,12 @@ export default function Hero() {
                     />
                 </div>
                 
-                {/* Orbital Elements (Hidden on small mobile for clarity) */}
-                <div className="hidden sm:flex absolute -top-6 -right-6 md:-top-10 md:-right-10 w-24 h-24 md:w-32 md:h-32 rounded-3xl bg-white/70 backdrop-blur-xl border border-white/40 shadow-xl items-center justify-center animate-float">
-                  <Shield size={32} className="text-brand-navy opacity-20" />
+                {/* Orbital Elements */}
+                <div className="flex absolute -top-4 -right-4 sm:-top-6 sm:-right-6 md:-top-10 md:-right-10 w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-2xl md:rounded-3xl bg-white/70 backdrop-blur-xl border border-white/40 shadow-xl items-center justify-center animate-float">
+                  <Shield className="text-brand-navy opacity-20 w-6 h-6 sm:w-8 sm:h-8" />
                 </div>
-                <div className="hidden sm:flex absolute -bottom-6 -left-6 md:-bottom-10 md:-left-10 w-20 h-20 md:w-24 md:h-24 rounded-2xl bg-brand-navy text-brand-emerald items-center justify-center shadow-2xl [animation-delay:2s] animate-float">
-                  <Cpu size={28} />
+                <div className="flex absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 md:-bottom-10 md:-left-10 w-14 h-14 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-xl md:rounded-2xl bg-brand-navy text-brand-emerald items-center justify-center shadow-2xl [animation-delay:2s] animate-float">
+                  <Cpu className="w-5 h-5 sm:w-7 sm:h-7" />
                 </div>
               </motion.div>
 
