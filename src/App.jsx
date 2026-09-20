@@ -1,4 +1,11 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+/** @format */
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import { useEffect } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Pages/Home/Hero/Hero";
@@ -12,10 +19,11 @@ import Footer from "./Components/Footer/Footer";
 import Mission from "./Components/Mission/Mission";
 import NotFound from "./Components/NotFound/NotFound";
 import TechStack from "./Components/TechStack/TechStack";
+import LuthorProducts from "./Components/Products/Products";
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
-  
+
   useEffect(() => {
     if (!hash) {
       window.scrollTo(0, 0);
@@ -27,10 +35,9 @@ function ScrollToTop() {
       }
     }
   }, [pathname, hash]);
-  
+
   return null;
 }
-
 
 function HomePage() {
   return (
@@ -39,13 +46,13 @@ function HomePage() {
       <Hero />
       <About />
       <Services />
+      <LuthorProducts />
       <Process />
       <TechStack />
       <FAQ />
       <Contact />
       <Footer />
     </>
-
   );
 }
 
@@ -65,8 +72,4 @@ function App() {
   );
 }
 
-
-
-
 export default App;
-
