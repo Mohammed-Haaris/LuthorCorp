@@ -9,6 +9,7 @@ import logo from "../../assets/LuthorCorp.jpg";
 const navItems = [
   { label: "Home", href: "/" },
   { label: "About", href: "/#about" },
+  { label: "Products", href: "/#products" },
   { label: "Service", href: "/#services" },
   { label: "Contact", href: "/#contact" },
 ];
