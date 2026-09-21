@@ -68,9 +68,7 @@ export default function Contact() {
                     <p className="text-sm font-medium">
                       smhhaaris2020@gmail.com
                     </p>
-                    <p className="text-sm font-medium">
-                      ahamedrafihcl@gmail.com
-                    </p>
+                    <p className="text-sm font-medium">rafi.hcl@gmail.com</p>
                   </div>
                 </div>
 

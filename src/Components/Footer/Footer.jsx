@@ -80,9 +80,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="hover:text-brand-emerald transition-colors">
-                <a href="mailto:ahamedrafihcl@gmail.com">
-                  ahamedrafihcl@gmail.com
-                </a>
+                <a href="mailto:rafi.hcl@gmail.com">rafi.hcl@gmail.com</a>
               </li>
               <li className="text-brand-silver pt-2 uppercase tracking-widest text-[9px] font-bold">
                 WhatsApp Protocols
